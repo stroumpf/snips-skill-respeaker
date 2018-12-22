@@ -9,6 +9,7 @@
 #include <string.h>
 #include <fcntl.h>
 #include <pthread.h>
+#include <wiringPi.h>
 
 #define NUM_TOPIC       10
 #define HOT_ON          "hermes/hotword/toggleOn"
